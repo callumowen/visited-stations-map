@@ -3,7 +3,7 @@ import { finished } from 'node:stream/promises'
 
 interface Env {}
 
-const sheetId = '1ZRBE-9i4_WmMmO5h1pIMwrF1owW95Qc-ElLcmf0ct3g'
+const sheetId = '1fz-faImxMWC6wYs3pyBSPNFHuQBkwUSKSLdTDCFjVS0'
 const sheetUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv`
 
 async function getSheetContents() {
